@@ -1,0 +1,13 @@
+.navigation-list, .navigation-user, .advantages-description, .catalog-filter-list, .hotel-list {
+    list-style: none;
+}
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/ptsans-400.woff2") format(woff2);
+    font-display: swap;
+} 
+body {
+    background-color: yellowgreen;
+}

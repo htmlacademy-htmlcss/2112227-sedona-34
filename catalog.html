@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 <header class="header">
@@ -37,7 +38,7 @@
       <form action="https://echo.htmlacademy.ru/" method="get">
         <fieldset>
           <legend class="catalog-filter-name">Инфраструктура:</legend>
-          <ul>
+          <ul class="catalog-filter-list">
             <li><label><input class="catalog-checkbox" type="checkbox" name="pool" checked>
             Бассейн</label></li>
             <li><label><input class="catalog-checkbox" type="checkbox" name="parking" checked>
@@ -48,7 +49,7 @@
         </fieldset>
         <fieldset>
           <legend class="catalog-filter-name">Тип жилья:</legend>
-          <ul>
+          <ul class="catalog-filter-list">
             <li><label><input class="catalog-radio" type="radio" name="type-of-house" value="hotel" checked>
               Гостиница</label></li>
             <li><label><input class="catalog-checkbox" type="radio" name="type-of-house" value="motel">
@@ -80,7 +81,7 @@
       <span class="visually-hidden">Вид: список</span>
     </a>
     <section>
-      <ul>
+      <ul class="hotel-list">
         <li><a href="#"><img class="hotel-card" src="images/photos/hotels/hotel-1-1.jpg" alt="Звездное небо вид снизу">
         <h4>Amara Resort & Spa</h4>
         <p>Гостиница</p>
